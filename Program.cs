@@ -18,7 +18,8 @@ namespace Arboles
             arbol.Insertar(9);
             Console.WriteLine(arbol.Buscar(7));
             Console.WriteLine(arbol.Buscar(5));
-            
+            arbol.ObtenerNivel(8);
+            arbol.RecorrerCaminos();
         }
     }
 }
